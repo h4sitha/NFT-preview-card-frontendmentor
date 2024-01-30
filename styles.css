@@ -67,3 +67,18 @@ h1 {
 hr {
     border-color: hsl(215, 32%, 27%);
 }
+
+h1,
+#user-name {
+    color: hsl(0, 0%, 100%);
+}
+
+#user > span,
+#time span,
+p {
+    color: hsl(215, 51%, 70%);
+}
+
+#price span {
+    color: hsl(178, 100%, 50%);
+}
