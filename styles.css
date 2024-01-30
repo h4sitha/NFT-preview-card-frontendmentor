@@ -48,4 +48,11 @@ h1 {
 #user {
     display: flex;
     align-items: center;
+    margin: 15px 0 7px 0;
+    gap: 15px;
+}
+
+#user img {
+    width: 35px;
+    border: 1px solid hsl(0, 0%, 100%);
 }
