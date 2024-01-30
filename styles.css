@@ -53,6 +53,7 @@ main {
     justify-content: center;
     align-items: center;
     border-radius: 10px;
+    opacity: 0;
 }
 
 h1 {
@@ -122,5 +123,10 @@ p {
 h1:hover,
 #user-name:hover {
     color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+#when-hover:hover {
+    opacity: 1;
     cursor: pointer;
 }
