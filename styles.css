@@ -7,3 +7,11 @@ html {
 body {
     font-family: "Outfit";
 }
+
+* {
+    /* border: 1px solid green; */
+}
+
+main {
+    border: 1px solid black;
+}
