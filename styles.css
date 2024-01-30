@@ -44,3 +44,8 @@ h1 {
 #price-time div {
     gap: 6px;
 }
+
+#user {
+    display: flex;
+    align-items: center;
+}
