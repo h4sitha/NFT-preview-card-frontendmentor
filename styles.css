@@ -20,7 +20,7 @@ body {
 }
 
 main {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     max-width: 300px;
     padding: 23px;
     border-radius: 12px;
@@ -92,4 +92,12 @@ p {
 
 #price-time span {
     font-size: 0.9rem;
+}
+
+/* hover properties */
+
+h1:hover,
+#user-name:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
 }
