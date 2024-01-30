@@ -29,3 +29,17 @@ h1 {
     font-size: 1.4rem;
     margin: 14px 0;
 }
+
+#price-time,
+#price-time div {
+    display: flex;
+    align-items: center;
+}
+
+#price-time {
+    justify-content: space-between;
+}
+
+#price-time div {
+    gap: 6px;
+}
