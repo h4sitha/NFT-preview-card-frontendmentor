@@ -6,6 +6,10 @@ html {
 
 body {
     font-family: "Outfit";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 * {
