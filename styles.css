@@ -34,7 +34,7 @@ main > img {
 
 h1 {
     font-size: 1.4rem;
-    margin: 14px 0;
+    margin: 14px 0 16px 0;
 }
 
 #price-time,
@@ -45,7 +45,7 @@ h1 {
 
 #price-time {
     justify-content: space-between;
-    margin: 20px 0;
+    margin: 25px 0 23px 0;
 }
 
 #price-time div {
@@ -82,4 +82,8 @@ p {
 
 #price span {
     color: hsl(178, 100%, 50%);
+}
+
+#price-time span {
+    font-size: 0.95rem;
 }
