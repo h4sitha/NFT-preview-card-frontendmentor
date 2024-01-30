@@ -74,14 +74,20 @@ h1,
     color: hsl(0, 0%, 100%);
 }
 
+#user-name {
+    /* font-weight: 300; */
+}
+
 #user > span,
 #time span,
 p {
     color: hsl(215, 51%, 70%);
+    font-weight: 300;
 }
 
 #price span {
     color: hsl(178, 100%, 50%);
+    font-weight: 600;
 }
 
 #price-time span {
