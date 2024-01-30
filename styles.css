@@ -21,8 +21,8 @@ body {
 
 main {
     border: 1px solid black;
-    max-width: 350px;
-    padding: 20px;
+    max-width: 300px;
+    padding: 23px;
     border-radius: 12px;
     background-color: hsl(216, 50%, 16%);
 }
@@ -34,7 +34,7 @@ main > img {
 
 h1 {
     font-size: 1.4rem;
-    margin: 14px 0 16px 0;
+    margin: 16px 0 20px 0;
 }
 
 #price-time,
@@ -45,11 +45,11 @@ h1 {
 
 #price-time {
     justify-content: space-between;
-    margin: 25px 0 23px 0;
+    margin: 27px 0 25px 0;
 }
 
 #price-time div {
-    gap: 6px;
+    gap: 7px;
 }
 
 #user {
@@ -74,15 +74,15 @@ h1,
     color: hsl(0, 0%, 100%);
 }
 
-#user-name {
-    /* font-weight: 300; */
-}
-
 #user > span,
 #time span,
 p {
     color: hsl(215, 51%, 70%);
     font-weight: 300;
+}
+
+#user span {
+    font-size: 0.9rem;
 }
 
 #price span {
@@ -91,5 +91,5 @@ p {
 }
 
 #price-time span {
-    font-size: 0.95rem;
+    font-size: 0.9rem;
 }
