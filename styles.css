@@ -10,6 +10,8 @@ body {
 
 * {
     /* border: 1px solid green; */
+    margin: 0;
+    padding: 0;
 }
 
 main {
