@@ -17,11 +17,13 @@ body {
     /* border: 1px solid green; */
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 main {
     /* border: 1px solid black; */
-    max-width: 300px;
+    max-width: 345px;
+    width: 90%;
     padding: 23px;
     border-radius: 12px;
     background-color: hsl(216, 50%, 16%);
